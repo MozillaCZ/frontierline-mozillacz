@@ -1,0 +1,14 @@
+/*
+Theme Name:     Frontierline - Mozilla.cz
+Description:    WordPress theme for Mozilla.cz, based on the Frontierline WordPress theme by Mozilla.
+Theme URI:      https://github.com/MozillaCZ/frontierline-mozillacz
+Author:         Mozilla.cz
+Author URI:     https://www.mozilla.cz/
+Template:       frontierline
+Version:        1.0
+License:        GNU General Public License v3.0
+License URI:    https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import url('../frontierline/style.css');
+

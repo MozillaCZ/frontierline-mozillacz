@@ -21,6 +21,48 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
 }
 
 /* Styly pouzivane ve zpravickach a na strankach */
+.type-post .entry-title {
+    padding-right: 92px;
+}
+
+.type-post .news-logo {
+    position: absolute;
+    top: 110px;
+    right: 80px;
+    font-size: 72px;
+    width: 1em;
+    height: 1em;
+    float: right;
+}
+
+.type-post .news-logo + br {
+    display: none;
+}
+
+.type-post .news-logo img,
+.type-post .news-logo .fa {
+    position: absolute;
+    max-width: 1em;
+    max-height: 1em;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 1400px) {
+    .type-post .news-logo {
+        right: 280px;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .type-post .entry-title {
+        padding-right: 0;
+    }
+
+    .type-post .news-logo {
+        display: none;
+    }
+}
+
 .soubor {
     background: #d9e6f2;
     font-style: italic;
@@ -122,5 +164,20 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
 .download-ico-addon {
     background-image: url(/images/addon.svg);
     background-size: 1em;
+}
+
+/* Vzhled tabulky - Prehled souboru v profilech */
+table.nice > thead {
+    font-weight: bold;
+    background: #eee;
+}
+
+table.nice td {
+    border-left: none;
+    border-right: none;
+}
+
+table.nice tt {
+    font-size: 0.857em;
 }
 

@@ -20,6 +20,7 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
     font-size: 0.5em;
 }
 
+/* Styly pouzivane ve zpravickach a na strankach */
 .soubor {
     background: #d9e6f2;
     font-style: italic;
@@ -42,5 +43,84 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
 
 .codear code {
     font-size: 0.8em !important;
+}
+
+/* Stranky "Stahnout" */
+.download-box {
+    margin: 1em 0;
+    padding: 12px 4% 8px;
+    background: #eee;
+}
+
+.download-app-logo {
+    text-align: center;
+}
+
+.download-app-logo img {
+    vertical-align: middle;
+    margin: 0 0.2em;
+}
+
+.download-box-link {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.download-ico {
+    display: block;
+}
+
+.download-ico .fa {
+    font-size: 1.3em;
+    margin-right: 0.2em;
+}
+
+.download-ico a .fa {
+    color: #333;
+}
+
+.download-ico-mac,
+.download-ico-ff,
+.download-ico-tb,
+.download-ico-sm,
+.download-ico-addon
+{
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 1.3em;
+}
+
+.download-ico a .fa-windows {
+    color: #0078d6;
+}
+
+.download-ico a .fa-android {
+    color: #77c159;
+}
+
+.download-ico-mac {
+    background-image: url(/images/mac-os-x-el-capitan.svg);
+    background-size: 1em;
+}
+
+.download-ico-ff {
+    background-image: url(/images/firefox.svg);
+    background-size: 1em;
+}
+
+.download-ico-tb {
+    background-image: url(/images/thunderbird-128.png);
+    background-size: 1em;
+}
+
+.download-ico-sm {
+    background-image: url(/images/seamonkey.svg);
+    background-size: 1em;
+}
+
+.download-ico-addon {
+    background-image: url(/images/addon.svg);
+    background-size: 1em;
 }
 

@@ -77,12 +77,10 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
     padding: 2px 4px;
 }
 
-.codear {
+pre code {
+    display: inline-block;
     background: #f0f6f9;
     padding: 0.5em;
-}
-
-.codear code {
     font-size: 0.8em !important;
 }
 

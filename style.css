@@ -12,3 +12,11 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
 
 @import url('../frontierline/style.css');
 
+/* Odkazovani na weby v jinem jazyce */
+:link[hreflang]:not([hreflang|=cs])::after {
+    content: attr(hreflang);
+    text-transform: uppercase;
+    vertical-align: super;
+    font-size: 0.5em;
+}
+

@@ -3,7 +3,7 @@
 /* Enqueue Frontierline original stylesheet */
 add_action('wp_enqueue_scripts', 'frontierline_css');
 function frontierline_css() {
-    wp_enqueue_style('frontierline', get_template_directory_uri().'/style.css');
+    wp_enqueue_style('frontierline-parent', get_template_directory_uri().'/style.css');
 }
 
 /* Enqueue Font Awesome */

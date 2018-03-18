@@ -109,13 +109,20 @@ pre code {
     display: block;
 }
 
-.download-ico .fa {
+.download-ico .fab,
+.download-ico .svg-inline--fa
+{
     font-size: 1.3em;
     margin-right: 0.2em;
+    color: #333;
 }
 
-.download-ico a .fa {
-    color: #333;
+.download-ico .fa-windows {
+    color: #0078d6;
+}
+
+.download-ico .fa-android {
+    color: #77c159;
 }
 
 .download-ico-mac,
@@ -126,41 +133,29 @@ pre code {
 {
     background-position: left center;
     background-repeat: no-repeat;
+    background-size: 16px;
     display: block;
     padding-left: 1.3em;
 }
 
-.download-ico a .fa-windows {
-    color: #0078d6;
-}
-
-.download-ico a .fa-android {
-    color: #77c159;
-}
-
 .download-ico-mac {
     background-image: url(/images/mac-os-x-el-capitan.svg);
-    background-size: 1em;
 }
 
 .download-ico-ff {
     background-image: url(/images/firefox.svg);
-    background-size: 1em;
 }
 
 .download-ico-tb {
     background-image: url(/images/thunderbird-128.png);
-    background-size: 1em;
 }
 
 .download-ico-sm {
     background-image: url(/images/seamonkey.svg);
-    background-size: 1em;
 }
 
 .download-ico-addon {
     background-image: url(/images/addon.svg);
-    background-size: 1em;
 }
 
 /* Vzhled tabulky - Prehled souboru v profilech */
@@ -177,4 +172,3 @@ table.nice td {
 table.nice tt {
     font-size: 0.857em;
 }
-

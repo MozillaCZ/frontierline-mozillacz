@@ -91,13 +91,17 @@ pre code {
     background: #eee;
 }
 
-.download-app-logo {
+.posts-grid .download-box {
     text-align: center;
 }
 
-.download-app-logo img {
-    vertical-align: middle;
-    margin: 0 0.2em;
+.posts-grid .download-box img {
+    max-width: 7em;
+}
+
+.download-box h3 img {
+    max-width: 0.8em;
+    margin-right: 0.3em;
 }
 
 .download-box-link {
@@ -110,10 +114,12 @@ pre code {
 }
 
 .download-ico .fab,
-.download-ico .svg-inline--fa
+.download-ico .svg-inline--fa,
+.download-ico .mac
 {
-    font-size: 1.3em;
-    margin-right: 0.2em;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
     color: #333;
 }
 
@@ -125,37 +131,11 @@ pre code {
     color: #77c159;
 }
 
-.download-ico-mac,
-.download-ico-ff,
-.download-ico-tb,
-.download-ico-sm,
-.download-ico-addon
-{
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 16px;
-    display: block;
-    padding-left: 1.3em;
-}
-
-.download-ico-mac {
+.download-ico .mac {
     background-image: url(/images/mac-os-x-el-capitan.svg);
-}
-
-.download-ico-ff {
-    background-image: url(/images/firefox.svg);
-}
-
-.download-ico-tb {
-    background-image: url(/images/thunderbird-128.png);
-}
-
-.download-ico-sm {
-    background-image: url(/images/seamonkey.svg);
-}
-
-.download-ico-addon {
-    background-image: url(/images/addon.svg);
+    background-size: contain;
+    height: 1em;
+    vertical-align: middle;
 }
 
 /* Vzhled tabulky - Prehled souboru v profilech */

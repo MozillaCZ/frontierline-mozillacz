@@ -12,12 +12,14 @@ License URI:    https://www.gnu.org/licenses/gpl-3.0.html
 
 
 /* Odkazovani na weby v jinem jazyce */
+/*
 :link[hreflang]:not([hreflang|=cs])::after {
     content: attr(hreflang);
     text-transform: uppercase;
     vertical-align: super;
     font-size: 0.5em;
 }
+*/
 
 /* Styly pouzivane ve zpravickach a na strankach */
 .type-post .entry-title {

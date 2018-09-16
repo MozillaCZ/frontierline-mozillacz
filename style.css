@@ -97,10 +97,14 @@ pre code {
     text-align: center;
 }
 
-.posts-grid .download-box img {
-    max-width: 7em;
+.posts-grid .download-box img,
+.posts-grid .download-box svg,
+.posts-grid .download-box .mac {
+    max-width: 1em;
+    font-size: 7em;
 }
 
+img.headline,
 .download-box h3 img {
     max-width: 0.8em;
     margin-right: 0.3em;
@@ -133,10 +137,12 @@ pre code {
     color: #77c159;
 }
 
-.download-ico .mac {
+.download-box .mac {
+    display: inline-block;
     background-image: url(/images/mac-os-x-el-capitan.svg);
     background-size: contain;
-    height: 1em;
+    min-width: 1em;
+    min-height: 1em;
     vertical-align: middle;
 }
 

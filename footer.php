@@ -23,7 +23,6 @@
         </a>
         <ul class="social-links">
           <li><a class="twitter" href="https://twitter.com/MozillaCZ">Twitter<span> (MozillaCZ)</span></a></li>
-          <li><a class="facebook" href="https://www.facebook.com/MozillaCZ">Facebook<span> (MozillaCZ)</span></a></li>
           <li><a class="telegram" href="https://t.me/MozillaCZ">Telegram<span> (MozillaCZ)</span></a></li>
         </ul>
       </section>

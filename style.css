@@ -100,7 +100,7 @@ pre code {
 .posts-grid .download-box img,
 .posts-grid .download-box svg,
 .posts-grid .download-box .mac {
-    max-width: 1em;
+    height: 1em;
     font-size: 7em;
 }
 

@@ -18,8 +18,8 @@
   <div class="content">
     <nav class="primary">
       <section>
-        <a href="/" title="Mozilla.cz">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MozillaCZ-02-512-white.png" alt="Mozilla.cz" style="max-width: 150px;"/>
+        <a href="/" title="<?php echo get_bloginfo( 'name' ); ?>">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MozillaCZ-02-512-white.png" alt="<?php echo get_bloginfo( 'name' ); ?>" style="max-width: 150px;"/>
         </a>
         <ul>
           <li><a href="https://twitter.com/MozillaCZ" target="_blank">Twitter</a></li>
@@ -44,6 +44,10 @@
 
           <p class="license">
           <?php printf(__('Portions of this content are ©1998-%1s by individual contributors. Content available under a <a href="%2s" rel="external license">Creative Commons license</a>.', 'frontierline'), date('Y'), esc_attr('https://www.mozilla.org/foundation/licensing/website-content/')); ?>
+          </p>
+
+          <p class="license">
+            Provoz tohoto webu zaštiťuje <a href="https://www.openalt.org/" target="_blank" data-link-type="footer">spolek OpenAlt</a>.
           </p>
         </div>
     </nav>

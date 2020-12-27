@@ -21,9 +21,11 @@
         <a href="/" title="Mozilla.cz">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MozillaCZ-02-512-white.png" alt="Mozilla.cz" style="max-width: 150px;"/>
         </a>
-        <ul class="social-links">
-          <li><a class="twitter" href="https://twitter.com/MozillaCZ">Twitter<span> (MozillaCZ)</span></a></li>
-          <li><a class="telegram" href="https://t.me/MozillaCZ">Telegram<span> (MozillaCZ)</span></a></li>
+        <ul>
+          <li><a href="https://twitter.com/MozillaCZ" target="_blank">Twitter</a></li>
+          <li><a href="https://matrix.to/#/+mozillacz:mozilla.org" target="_blank">Mozilla chat / Matrix</a></li>
+          <li><a href="https://t.me/MozillaCZ" target="_blank">Telegram</a></li>
+          <li><a href="https://github.com/MozillaCZ" target="_blank">GitHub</a></li>
         </ul>
       </section>
     </nav>

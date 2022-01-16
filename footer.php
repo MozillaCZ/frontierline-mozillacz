@@ -23,7 +23,7 @@
         </a>
         <ul>
           <li><a href="https://twitter.com/MozillaCZ" target="_blank">Twitter</a></li>
-          <li><a href="https://matrix.to/#/+mozillacz:mozilla.org" target="_blank">Mozilla chat / Matrix</a></li>
+          <li><a href="https://matrix.to/#/#mozillacz-space:mozilla.org" target="_blank">Mozilla chat / Matrix</a></li>
           <li><a href="https://github.com/MozillaCZ" target="_blank">GitHub</a></li>
         </ul>
       </section>

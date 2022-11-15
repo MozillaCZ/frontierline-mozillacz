@@ -29,3 +29,6 @@ register_default_headers( array(
 	)
  )
 );
+
+/* Opt out for suggesting the persistent object cache */
+add_filter('site_status_should_suggest_persistent_object_cache', '__return_false');

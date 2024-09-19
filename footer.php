@@ -22,6 +22,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MozillaCZ-02-512-white.png" alt="<?php echo get_bloginfo( 'name' ); ?>" style="max-width: 150px;"/>
         </a>
         <ul>
+          <li><a rel="me" href="https://mastodonczech.cz/@mozillacz" target="_blank">Mastodon</a></li>
           <li><a href="https://twitter.com/MozillaCZ" target="_blank">Twitter</a></li>
           <li><a href="https://matrix.to/#/#mozillacz-space:mozilla.org" target="_blank">Mozilla chat / Matrix</a></li>
           <li><a href="https://github.com/MozillaCZ" target="_blank">GitHub</a></li>

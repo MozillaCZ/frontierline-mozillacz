@@ -24,7 +24,7 @@
         <ul>
           <li><a rel="me" href="https://mastodonczech.cz/@mozillacz" target="_blank">Mastodon</a></li>
           <li><a href="https://bsky.app/profile/mozillacz.bsky.social" target="_blank">Bluesky</a></li>
-          <li><a href="https://x.com/MozillaCZ" target="_blank">X/Twitter</a></li>
+          <li><a href="https://x.com/MozillaCZ" target="_blank">X / Twitter</a></li>
           <li><a href="https://matrix.to/#/#mozillacz-space:mozilla.org" target="_blank">Mozilla chat / Matrix</a></li>
           <li><a href="https://github.com/MozillaCZ" target="_blank">GitHub</a></li>
         </ul>
